@@ -15,7 +15,7 @@ import javax.swing.*;
 /**
  * Main Application
  * 
- * @author TehSsounD
+ * @author Victor Winberg & Emma Asklund
  *
  */
 @SuppressWarnings("serial")
