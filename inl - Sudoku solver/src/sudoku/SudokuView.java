@@ -17,7 +17,7 @@ public class SudokuView extends JFrame {
 	private SudokuBoard board;
 	private SudokuPanel panel;
 	private SudokuCommand command;
-	private String path2;
+	private String path;
 
 	/** 
 	 * Main metoden som startar applikationen. 
