@@ -1,12 +1,9 @@
 package sudoku;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 
 @SuppressWarnings("serial")
-public class ClearButton extends JButton implements ActionListener {
+public class ClearButton extends JButton {
 
 	private SudokuView view;
 	
@@ -18,13 +15,6 @@ public class ClearButton extends JButton implements ActionListener {
 	public ClearButton(SudokuView view) {
 		super("Clear");
 		this.view = view;
-		addActionListener(this);
 		this.setToolTipText("Clears the board");
-	}
-	
-	@Override
-	/** Kallar på SudokuView's clear metod. */
-	public void actionPerformed(ActionEvent e) {
-		view.clear();
 	}
 }
