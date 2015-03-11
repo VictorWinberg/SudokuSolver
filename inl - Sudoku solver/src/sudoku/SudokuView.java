@@ -12,6 +12,12 @@ import java.util.Scanner;
 
 import javax.swing.*;
 
+/**
+ * Main Application
+ * 
+ * @author TehSsounD
+ *
+ */
 @SuppressWarnings("serial")
 public class SudokuView extends JFrame {
 	private SudokuBoard board;
